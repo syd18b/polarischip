@@ -286,6 +286,9 @@ export class MyCard extends LitElement {
       fancy: { type: Boolean, reflect: true },
     };
   }
+
+
+  
 }
 
 globalThis.customElements.define(MyCard.tag, MyCard);
